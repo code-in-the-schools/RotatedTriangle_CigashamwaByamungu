@@ -1,11 +1,11 @@
 #UserInputFunctions
-L1 = input('Enter any character:')
-L2 = int(input(' Enter any positive number(>7):'))
+L1 = input("Enter any character:")
+L2 = int(input("Enter any positive number(<50):"))
  
 #ForLoops/Multipliers
-for i in range(2, L2 + 2):
+for x in range (2, L2 + 2):
   anything = ""
-  for j in range(i):
+  for a in range (x):
     anything+=L1
 
     print(anything)
